@@ -677,7 +677,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .proj-content .card{
+    .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -705,7 +705,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .proj-content .card{
+    .services .serv-content .card{
         width: 100%;
     }
     .projects .proj-content .card{
