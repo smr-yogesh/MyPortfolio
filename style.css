@@ -765,6 +765,10 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .certs .skills-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -789,6 +793,9 @@ footer span a:hover{
         width: 100%;
     }
     .projects .proj-content .card{
+        width: 100%;
+    }
+    .certs .skills-content .card{
         width: 100%;
     }
 }
