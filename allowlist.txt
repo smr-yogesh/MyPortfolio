@@ -1,0 +1,4 @@
+! Title: AdGuard DNS allow list
+||s.youtube.com
+||video-stats.l.google.com
+||video-stats.video.google.com
