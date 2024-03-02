@@ -69,4 +69,6 @@ $(document).ready(function(){
             }
         }
     });
+
+    document.getElementById("currentYear").innerText = new Date().getFullYear();
 });
