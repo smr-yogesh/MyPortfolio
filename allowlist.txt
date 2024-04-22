@@ -2,5 +2,5 @@
 ||s.youtube.com
 ||video-stats.l.google.com
 ||video-stats.video.google.com
-||t.co/
+||t.co
 
