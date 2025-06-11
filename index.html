@@ -18,6 +18,20 @@
       </audio>
     -->
 </head>
+<script>
+  fetch("https://pmzr2bxxge.execute-api.us-east-1.amazonaws.com/v1/visitorcounter")
+    .then(response => response.json())
+    .then(data => {
+      console.log("Visitor count:", data.visits);
+      document.getElementById("visitor-count").textContent = data.visits;
+    })
+    .catch(err => {
+      console.error("Error fetching visitor count:", err);
+      document.getElementById("visitor-count").textContent = "Unavailable";
+    });
+</script>
+
+
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
@@ -48,6 +62,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Yogesh Bhatt</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-1"><span id="visitor-count">...</span> people have visited this site</div>
                 <a href="#contact">Hire me</a>
             </div>
           </div>
