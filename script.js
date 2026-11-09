@@ -1,5 +1,6 @@
 // Theme: follow system, allow manual toggle
-const root = document.documentElement;
+
+document.getElementById('year').textContent = new Date().getFullYear();const root = document.documentElement;
 const saved = localStorage.getItem('theme');
 root.dataset.theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 document.getElementById('theme').addEventListener('click', () => {
